@@ -1,0 +1,2 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+kfold/5_Fold.zip filter=lfs diff=lfs merge=lfs -text
