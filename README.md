@@ -1,4 +1,5 @@
 # 🍳 식재료 탐지 기반 요리 추천 시스템
+<br/>
 
 ## 🧑‍💻 제로베이스 데이터 스쿨 팀 프로젝트
 
@@ -6,27 +7,35 @@
 - **목표**:  
   식재료 탐지와 레시피 추천으로 **식재료 파악 및 식사 고민 해소**  
   객체 탐지 모델과 GPT 연동을 통해 **요리 추천 시스템 MVP 구현**
+<br/>
 
----
 
 ## 🛠️ 사용 기술
 
 - **Python**
 - **YOLO**
 - **OpenAI GPT API**
+<br/>
 
----
 
 ## 🧩 주요 역할
 
 - 학습용 이미지 **수집 및 라벨링**
 - 데이터의 신뢰성 향상을 위한 **K-Fold 교차 검증용 데이터 구성**
-- **YOLOlls 모델 학습**을 통한 객체 탐지 구현
+- **YOLO lls 모델 학습**을 통한 객체 탐지 구현
 - **GPT Open API 연동**으로 요리 추천 기능 연결
+<br/>
 
-<img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/e012e962-b692-45ab-aacf-573e1ae83875" />
 
-'''
+## Result(sample)
+<img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/e012e962-b692-45ab-aacf-573e1ae83875" /> <img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/be16b69f-0e30-4694-b0c8-9722df7014be" /> <img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/4607b464-06b6-444c-8c47-c18682560771" />
+
+
+<br/>
+<br/>
+
+
+```
 [추천요리]
 - 오징어 볶음밥
 
@@ -52,4 +61,3 @@
 7. 밥을 넣고 잘 볶아준다.
 8. 간장, 소금, 후추로 간을 맞춰준다.
 9. 대파를 곁들여 마무리한다. 식용유를 더해서 볶으면 더 맛있는 볶음밥을 즐길 수 있다.
-10. '''
