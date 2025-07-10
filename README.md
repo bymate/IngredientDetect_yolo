@@ -27,11 +27,10 @@
 <br/>
 
 
-## Result(sample)
+## Example
 <img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/e012e962-b692-45ab-aacf-573e1ae83875" /> <img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/be16b69f-0e30-4694-b0c8-9722df7014be" /> <img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/4607b464-06b6-444c-8c47-c18682560771" />
 
 
-<br/>
 <br/>
 
 
