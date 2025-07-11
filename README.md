@@ -6,7 +6,7 @@
 <br/><br/>
 
 ## 🛠️ 모델 학습 상세 설명
-- **사용 모델**: yolo11s (CNN 기반 딥러닝 객체 탐지 모델)
+- **사용 모델**: `yolo11s` (CNN 기반 딥러닝 객체 탐지 모델)
 
 - **학습 방법**:
   - yolo 모델 하이퍼 파라미터를 통한 데이터 증강 적용
@@ -32,6 +32,9 @@
 - **GPT Open API 연동**으로 요리 추천 기능 연결 (gpt-3.5-turbo)
 <br/>
 
+## 🛠️ 사용 기술 스택
+- Python, YOLO, pandas  
+<br/>
 
 ## 🎯 Example
 <img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/e012e962-b692-45ab-aacf-573e1ae83875" /> <img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/be16b69f-0e30-4694-b0c8-9722df7014be" /> <img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/4607b464-06b6-444c-8c47-c18682560771" />
