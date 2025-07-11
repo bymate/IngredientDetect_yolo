@@ -1,33 +1,39 @@
 # 🍳 식재료 탐지 기반 요리 추천 시스템
 <br/>
 
-## 🧑‍💻 제로베이스 데이터 스쿨 팀 프로젝트
+## 🧑‍💻 프로젝트 개요  
+해당 프로젝트는 매일 반복되는 식사 고민의 문제를 조금 더 편리하게 해결하기 위한 접근으로 시작했습니다. 실시간 객체 탐지 모델인 YOLO 모델을 활용해 **식재료를 자동으로 파악**하고 GPT와의 연동을 통해 **요리를 추천하는 시스템**을 구현했습니다.
+<br/><br/>
 
-- **기간/인원**: 2024.10 ~ 2024.11 (1개월) / 5명  
-- **목표**:  
-  식재료 탐지와 레시피 추천으로 **식재료 파악 및 식사 고민 해소**  
-  객체 탐지 모델과 GPT 연동을 통해 **요리 추천 시스템 MVP 구현**
+## 🛠️ 모델 학습 상세 설명
+- **사용 모델**: yolo11s (CNN 기반 딥러닝 객체 탐지 모델)
+
+- **학습 방법**:
+  - yolo 모델 하이퍼 파라미터를 통한 데이터 증강 적용
+  - k-fold 교차검증으로 모델간 성능 평가 진행 (yolov8n, yolo11s)
 <br/>
 
-
-## 🛠️ 사용 기술
-
-- **Python**
-- **YOLO**
-- **OpenAI GPT API**
+## 📦 데이터셋
+- **데이터 수집**: 38개의 식재료 1631개의 이미지 수집
+  
+- **라벨링**:
+  - 320x320 사이즈로 이미지 크기 통일 후 labelme로 이미지 라벨링 진행
+  - labelme로 만든 json 형식의 라벨을 YOLO 학습에 알맞는 형식으로 변경 (labelme2yolo)
+    
+- **데이터 구성**:
+  - **성능 평가**: k-fold 데이터셋 구성 (k=5)
+  - **최종 학습**: train: 90%, val:10%
 <br/>
 
-
-## 🧩 주요 역할
-
+## 🧩 주요 역할 및 프로젝트 진행 내용
 - 학습용 이미지 **수집 및 라벨링**
 - 데이터의 신뢰성 향상을 위한 **K-Fold 교차 검증용 데이터 구성**
-- **YOLO lls 모델 학습**을 통한 객체 탐지 구현
-- **GPT Open API 연동**으로 요리 추천 기능 연결
+- **yolo11s 모델 학습**을 통한 객체 탐지 구현
+- **GPT Open API 연동**으로 요리 추천 기능 연결 (gpt-3.5-turbo)
 <br/>
 
 
-## Example
+## 🎯 Example
 <img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/e012e962-b692-45ab-aacf-573e1ae83875" /> <img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/be16b69f-0e30-4694-b0c8-9722df7014be" /> <img width="279" height="209" alt="image" src="https://github.com/user-attachments/assets/4607b464-06b6-444c-8c47-c18682560771" />
 
 
